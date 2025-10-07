@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =====================
 # Environment Variables
 # =====================
@@ -48,11 +49,15 @@ Thumbs.db
 # =====================
 # Logs
 # =====================
+=======
+# Logs
+>>>>>>> 5e1c28bc01e47d86e5f1e0a9f50cd93ad7606292
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 lerna-debug.log*
 
 # =====================
@@ -66,3 +71,23 @@ coverage/
 # =====================
 data/db/
 *.mongodb
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 5e1c28bc01e47d86e5f1e0a9f50cd93ad7606292
